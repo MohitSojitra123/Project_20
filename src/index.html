@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Tere</title>
+</head>
+<!-- Remix ICon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Remix ICon -->
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Jquery -->
+
+<body>
+ <!-- Navigation Bar -->
+ <div class="nav_bar w-full h-[80px] flex justify-between px-[20px] border-b border-b-gray-500">
+   <div class="nav_left  w-[200px]  h-[100%] flex justify-start items-center">
+     <img src="./photo/logo.svg"  class="hover:cursor-pointer h-[60%] w-[60%]" alt="">
+    </div>
+    <div class="nav_right w-auto h-[100%]  hidden   md:flex justify-center items-center gap-[30px] text-xl">
+      <div class="hover:cursor-pointer hover:text-[#75BF7A]">Home</div>
+      <div class="hover:cursor-pointer hover:text-[#75BF7A]">How tere works</div>
+      <div class="hover:cursor-pointer hover:text-[#75BF7A]">Tere benefits</div>
+      <div class="p-[10px_15px] bg-[#75BF7A] hover:text-[#75BF7A] hover:border-2 hover:border-[#75BF7A] hover:bg-transparent text-white rounded-[10px]">Help Center</div>
+    </div>
+    <div class="menu_bar w-[100px]  h-[100%] text-3xl md:hidden flex justify-end items-center">
+      <i class="ri-menu-line"></i>
+    </div>
+  </div>    
+  
+  <div class="side_nav hidden  w-full h-auto">
+    
+    <div class="w-full p-[15px_0px] border-b border-b-gray-500 text-xl  space-y-3 flex justify-center items-center hover:text-white hover:bg-black">Home</div>
+    <div class="w-full p-[15px_0px] border-b border-b-gray-500 text-xl  space-y-3 flex justify-center items-center hover:text-white hover:bg-black">How tere works</div>
+    <div class="w-full p-[15px_0px] border-b border-b-gray-500 text-xl  space-y-3 flex justify-center items-center hover:text-white hover:bg-black">Tere benefits</div>
+    <div class="w-full h-[80px]  border-b border-b-gray-500 flex justify-center items-center hover:text-white hover:bg-black">
+      <div class="w-[50%] text-white h-[60%] bg-[#75BF7A] flex justify-center items-center text-xl rounded-[10px]">Help Center</div>
+    </div>
+  </div>
+  <!-- Navigation Bar -->
+
+  <!-- Hero Section -->
+   <div class="w-full h-[100vh] sm:h-[50vh] md:h-[50vh] lg:h-[90vh] sm:flex">
+     <div class="w-full h-[50%] sm:w-[50%] md:w-[50%] lg:w-[50%] sm:h-[100%]  flex justify-center items-center">
+      <div class="main_container md:w-[90%] h-[100%] md:h-[90%] flex justify-center items-center flex-col gap-[15px_0px] sm:gap-[10px_0px] md:gap-[20px_0px] md:px-[20px] px-[5px]">
+               <div class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center">DOWNLOAD APP,<span class="text-[#75BF7A]">SAVE MONEY</span>, MAKE FRIENDS!</div>
+               <div class="lg:text-xl text-gray-400 text-center">Its simple and its free. Play your part in reducing Carbon Footprint and help Mother Nature to sustain its beauty. So what are you waiting for ?  Lets ride together</div>
+               <div class="btns flex justify-center items-center gap-[10px]">
+                <div class="btn1 h-[50px] bg-black flex justify-center items-center gap-[10px]  text-white font-bold px-[10px] rounded-[10px]">
+                  <div class="img_btn"><img src="./photo/bxl_play-store.png" alt=""></div>
+                  <div class="">DOWNLOAD</div>
+                </div>
+                <div class="btn1 h-[50px] bg-black flex justify-center items-center gap-[10px]  text-white font-bold px-[10px] rounded-[10px]">
+                  <div class="img_btn"><img src="./photo/ci_app-store.png" alt=""></div>
+                  <div class="">DOWNLOAD</div>
+                </div>
+               </div>
+      </div>
+     </div>
+     <div class="w-full h-[50%] sm:w-[50%] md:w-[50%] lg:w-[50%] sm:h-[100%] flex justify-center items-center">
+      <img src="./photo/hero_section.png" class="w-[80%] h-[80%] object-contain" alt="">
+     </div>
+   </div>
+  <!-- Hero Section -->
+
+
+  <!-- Section 1 -->
+   <div class="Section_1 w-[90%] h-auto rounded-[30px] my-[30px] m-auto bg-[#75BF7A] flex justify-center items-center flex-wrap">
+
+      <div class="sec_left w-[400px] h-auto py-[20px] flex justify-center items-center">
+        <div class="text-white text-4xl font-bold text-center">Let’s go. Get a link to download the app.</div>
+      </div>
+      <div class="sec_right w-[600px] h-auto py-[20px]  flex  justify-center items-center">
+        <div class="search_bar w-[90%] flex justify-center items-center flex-col md:flex-row gap-[10px_10px]">
+          <div class="w-[280px] sm:w-[350px] md:w-[400px]"><input type="text" placeholder="Enter mobile phone number" class="pl-[10px] w-[100%] h-[50px]"></div>
+          <div class="w-[160px] text-center text-white rounded-[10px]  bg-black h-[50px] md:p-[10px_15px] flex justify-center items-center hover:bg-white hover:text-black cursor-pointer hover:border-2 hover:border-black">APPLY TO DRIVE</div>
+        </div>
+      </div>
+
+   </div>
+  <!-- Section 1 -->
+
+  <!-- Section 2 -->
+   <div class="w-full h-auto flex justify-center items-center px-[5px] sm:p-[0px]">
+    <div class="w-[100%] sm:w-[70%] md:w-[60%] lg:w-[40%] h-[100%] py-[15px] flex justify-center items-center flex-col">
+      <div class="content_1 text-4xl font-bold text-center">
+        HOW TERE WORKS
+      </div>
+      <div class="content_2 text-xl text-gray-500 text-center">
+        Download and install the tere app. Enter your phone number and make your user account. when approved you may start driving.
+      </div>
+    </div>
+   </div>
+  <!-- Section 2 -->
+
+  <!-- Section 3 -->
+   <div class="main_container w-full h-auto  my-[10px] flex flex-row gap-[10px_20px] justify-center items-center flex-wrap">
+
+      <div class="row_1 w-[320px] h-[500px]">
+         <div class="section_1 w-full h-[250px] flex flex-col gap-[20px] justify-center">
+           <div class="upper_section flex justify-center sm:justify-end">
+             <img src="./photo/s1.svg" alt="">
+          </div>
+           <div class="lower_section flex flex-col items-center sm:items-end">
+            <div class="text-2xl font-bold">REQUEST A RIDE</div>
+            <div class="text-xl text-center sm:text-right text-gray-500">Have to reach office or going for shopping ?  Just put your current location and destination and search a ride that suits you</div>
+           </div>
+         </div>
+         <div class="section_1 w-full h-[250px] flex flex-col gap-[20px] justify-center">
+           <div class="upper_section flex justify-center sm:justify-end">
+             <img src="./photo/s3.svg" alt="">
+          </div>
+           <div class="lower_section flex flex-col items-center sm:items-end">
+            <div class="text-2xl font-bold">INSTANT NOTIFICATIONS</div>
+            <div class="text-xl text-center sm:text-right text-gray-500">Get instant notifications for your rides and be in contact with fellow riders all the time</div>
+           </div>
+         </div>
+        
+      </div>
+
+      <div class="row_1 w-[320px] h-[500px] flex justify-center items-center">
+        <img src="./photo/Section 3.svg" class="w-[90%] object-contain" alt="" class="">
+      </div>
+
+      <div class="row_1 w-[320px] h-[500px]">
+        <div class="section_1 w-full h-[250px] flex flex-col gap-[20px] justify-center">
+          <div class="upper_section flex justify-center sm:justify-start">
+            <img src="./photo/s3.svg" alt="">
+         </div>
+          <div class="lower_section flex flex-col items-center sm:items-start">
+           <div class="text-2xl font-bold">POST A RIDE</div>
+           <div class="text-xl text-center sm:text-left text-gray-500">Going somewhere but hate to travel alone - 
+            just post your ride details and publish it</div>
+          </div>
+        </div>
+        <div class="section_1 w-full h-[250px] flex flex-col gap-[20px] justify-center">
+          <div class="upper_section flex justify-center sm:justify-start">
+            <img src="./photo/s4.svg" alt="">
+         </div>
+          <div class="lower_section flex flex-col items-center sm:items-start">
+           <div class="text-2xl font-bold">CASHLESS PAYMENT</div>
+           <div class="text-xl text-center sm:text-left text-gray-500">Payment made easy by using your own Wallet - no more cash to carry</div>
+          </div>
+      </div>
+
+   </div>
+  <!-- Section 3 -->
+
+  <!-- Section 4 -->
+   <div class="w-full h-auto my-[10px] flex justify-center items-center text-4xl font-bold">
+    <span class="text-[#75BF7A]">TERE&nbsp;</span> BENEFITS
+   </div>
+  <!-- Section 4 -->
+
+  <!-- Section5 -->
+   <div class="w-full h-auto  flex justify-center items-center">
+    <div class="row_1 w-[90%] h-auto flex justify-center gap-[0px] flex-wrap items-center">
+          <div class="upper w-[450px] h-[290px]  flex justify-center items-center flex-col gap-[20px_0px]">
+            
+            <div class=" flex gap-[20px] justify-start items-center">
+              <div class=""><img src="./photo/01..png" alt=""></div>
+              <div class="text-3xl sm:text-4xl font-bold">Flexible working hours</div>
+            </div>
+            <div class="text-xl text-gray-500 px-[10px] text-center">You can decide when, and how much time you want to drive.</div>
+          </div>
+          <div class="lower w-[350px] h-[290px] flex justify-center items-center">
+            <img src="./photo/f1.svg" alt="">
+          </div>
+    </div>
+   </div>
+  <!-- Section5 -->
+
+  <!-- Section 6 -->
+  <div class="w-full h-auto flex justify-center items-center">
+    <div class="row_1 w-[90%] h-auto  flex justify-center gap-[30px] flex-wrap items-center">
+          <div class="upper w-[450px] h-[290px] flex justify-center items-center flex-col gap-[20px_0px] lg:order-6">
+            
+            <div class=" flex gap-[20px] justify-start items-center">
+              <div class=""><img src="./photo/02..png" alt=""></div>
+              <div class="text-3xl sm:text-4xl font-bold">Earnings</div>
+            </div>
+            <div class="text-xl text-gray-500 px-[10px] text-center">By driving with tere you can 
+              earn more.</div>
+          </div>
+          <div class="lower w-[350px] h-[290px] lg:order-5">
+            <img src="./photo/f2.svg" alt="">
+          </div>
+    </div>
+   </div>
+  <!-- Section 6 -->
+
+  <!-- Section 7 -->
+  <div class="w-full h-auto  flex justify-center items-center">
+    <div class="row_1 w-[90%] h-auto  flex justify-center gap-[30px] flex-wrap items-center">
+          <div class="upper w-[450px] h-[290px] flex justify-center items-center flex-col gap-[20px_0px]">
+            
+            <div class=" flex gap-[20px] justify-start items-center">
+              <div class=""><img src="./photo/03..svg" alt=""></div>
+              <div class="text-3xl sm:text-4xl font-bold text-center">Customer  support 24/7</div>
+            </div>
+            <div class="text-xl text-gray-500 px-[10px] text-center">Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!</div>
+          </div>
+          <div class="lower w-[350px] h-[290px]  flex justify-center items-center">
+            <img src="./photo/f3.svg" alt="">
+          </div>
+    </div>
+   </div>
+  <!-- Section 7 -->
+
+  <!-- Section 8 -->
+   <div class="foot w-full h-auto py-[10px] flex justify-center items-center gap-[20px] flex-wrap">
+    <div class="col_1 w-[250px] h-auto py-[10px] flex justify-center items-center">
+      <img src="./photo/logo.svg" class="w-[120px] h-[120px] hover:cursor-pointer" alt="">
+    </div>
+    <div class="col_1 w-[250px] h-auto py-[10px] space-y-2 flex justify-center items-center flex-col">
+       <div class="text-2xl font-semibold hover:cursor-pointer hover:text-[#75BF7A]">Be Our Friend</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">3, Season Park, Jakarta</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">support@foodyar.co,id</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">021 - 1111 - 2222</div>
+    </div>
+    <div class="col_1 w-[250px] h-auto py-[10px] space-y-2 flex justify-center items-center flex-col">
+       <div class="text-2xl font-semibold hover:cursor-pointer hover:text-[#75BF7A]">Be Our Friend</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">3, Season Park, Jakarta</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">support@foodyar.co,id</div>
+       <div class="text-xl text-gray-500 hover:cursor-pointer hover:text-[#75BF7A]">021 - 1111 - 2222</div>
+    </div>
+    <div class="col_1 w-auto h-auto py-[10px]">
+      <div class="btns flex justify-center items-center gap-[20px] flex-wrap">
+        <div class="btn1 h-[50px] bg-black flex justify-center items-center gap-[10px]  text-white font-bold px-[10px] rounded-[10px]">
+          <div class="img_btn"><img src="./photo/bxl_play-store.png" alt=""></div>
+          <div class="">DOWNLOAD</div>
+        </div>
+        <div class="btn1 h-[50px] bg-black flex justify-center items-center gap-[10px]  text-white font-bold px-[10px] rounded-[10px]">
+          <div class="img_btn"><img src="./photo/ci_app-store.png" alt=""></div>
+          <div class="">DOWNLOAD</div>
+        </div>
+    </div>
+   </div>
+  <!-- Section 8 -->
+</body>
+<script>
+  
+  jQuery.noConflict();
+  jQuery(document).ready(function($){
+    $(".ri-menu-line").click(function(){
+      $(".side_nav").slideToggle();
+    })
+  })
+  
+</script>
+</html>
